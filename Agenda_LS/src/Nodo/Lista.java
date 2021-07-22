@@ -11,14 +11,14 @@ public class Lista {
 
     }
 
-    public boolean estaVacia() /*{
+    public boolean estaVacia() {
             if (inicio == null) {
                 return true;
             } else {
                 return false;
             }
 
-        }*/
+        }
 
     public void insertar(Agenda agenda) {
         Nodo actual;

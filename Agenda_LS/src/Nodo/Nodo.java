@@ -1,5 +1,7 @@
 package Nodo;
 
+import java.util.Scanner;
+
 public class Nodo {
 
     public Agenda dato;
@@ -28,9 +30,18 @@ public class Nodo {
     }
 
     public static void main(String[] args) {
-        
-        
-        
+
+        Lista ac = new Lista();
+        int opcion = 0;
+        do {
+            System.out.println("AGENDA DE CONTACTOS");
+            System.out.println("1. Insertar contacto");
+            System.out.println("2. Búsqueda de un contacto por el telefono");
+            System.out.println("Ingrese una opcion:");
+            Scanner leer = new Scanner(System.in);
+            opcion = leer.nextInt();
+
+        } while (opcion != 3);
 
     }
 
