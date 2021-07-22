@@ -1,11 +1,23 @@
-
 package Nodo;
 
-
 public class Agenda {
-    
+
     public String nombre, telefono;
     public int edad;
+
+    public Agenda(String nombre, String telefono, int edad) {
+        this.nombre = nombre;
+        this.telefono = telefono;
+        this.edad = edad;
+    }
+
+    public String toString() {
+        return "Agenda {"
+                + "Nombre = " + getNombre()
+                + ", Teléfono = " + getTelefono()
+                + ", Edad = " + getEdad() + "}";
+
+    }
 
     public String getNombre() {
         return nombre;
@@ -30,10 +42,5 @@ public class Agenda {
     public void setEdad(int edad) {
         this.edad = edad;
     }
-    
-        
-    
-    
+
 }
-
-
