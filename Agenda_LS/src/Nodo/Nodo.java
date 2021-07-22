@@ -38,7 +38,8 @@ public class Nodo {
             System.out.println("AGENDA DE CONTACTOS");
             System.out.println("1. Insertar contacto");
             System.out.println("2. Búsqueda de un contacto por el telefono");
-            System.out.println("Ingrese una opcion:");
+            System.out.println("3. Salir");
+            System.out.print("Ingrese una opcion: ");
             Scanner leer = new Scanner(System.in);
             opcion = leer.nextInt();
 
