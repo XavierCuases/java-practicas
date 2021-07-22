@@ -42,6 +42,8 @@ public class Nodo {
             opcion = leer.nextInt();
 
         } while (opcion != 3);
+        
+        6778
 
     }
 
