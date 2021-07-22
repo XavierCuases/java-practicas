@@ -31,6 +31,7 @@ public class Nodo {
 
     public static void main(String[] args) {
 
+
         Lista ac = new Lista();
         int opcion = 0;
         do {
@@ -43,7 +44,6 @@ public class Nodo {
 
         } while (opcion != 3);
         
-        6778
 
     }
 
