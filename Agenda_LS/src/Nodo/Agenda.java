@@ -4,6 +4,7 @@ public class Agenda {
 
     public String nombre, telefono;
     public int edad;
+  
 
     public Agenda(String nombre, String telefono, int edad) {
         this.nombre = nombre;
@@ -12,7 +13,8 @@ public class Agenda {
     }
 
     public String toString() {
-        return "Agenda {"
+       
+        return "Contacto: " + "{"
                 + "Nombre = " + getNombre()
                 + ", Teléfono = " + getTelefono()
                 + ", Edad = " + getEdad() + "}";
